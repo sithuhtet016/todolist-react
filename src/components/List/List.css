@@ -1,0 +1,42 @@
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 400px;
+  background-color: #dadada;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.done {
+  background: #8787ff;
+  border-color: #8787ff;
+  text-decoration: line-through;
+}
+
+.textContainer {
+  display: flex;
+}
+
+.textContainer > p {
+  margin-left: 5px;
+}
+
+.btnContainer > button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.edit {
+  background-color: rgb(62, 41, 252);
+  border: none;
+  border-radius: 3px;
+}
+
+.delete {
+  background-color: rgb(255, 57, 57);
+  border: none;
+  border-radius: 3px;
+}
